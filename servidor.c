@@ -4,8 +4,9 @@ Autor: J. Vargas
 Materia: Sistemas Operativos
 Clase: 2154
 Descripción: Archivo Servidor
-Se aplica el paradigma Productor-Consumidor, el servidor esta en espera del cliente en cuanto al envio de N mensaje,
-el cliente envia un mensaje de n caracteres y el servidor lo devuelve invertido
+Implementación del paradigma Productor-Consumidor usando FIFO. El cliente actúa como
+productor enviando cadenas, y el servidor como consumidor que las procesa e invierte. 
+La FIFO permite la comunicación entre procesos de forma sincronizada entre ambos codigos.
 */
 
 #include <stdio.h>
