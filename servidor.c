@@ -4,7 +4,8 @@ Autor: J. Vargas
 Materia: Sistemas Operativos
 Clase: 2154
 Descripción: Archivo Servidor
-Se aplica el para
+Se aplica el paradigma Productor-Consumidor, el servidor esta en espera del cliente en cuanto al envio de N mensaje,
+el cliente envia un mensaje de n caracteres y el servidor lo devuelve invertido
 */
 
 #include <stdio.h>
